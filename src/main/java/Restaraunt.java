@@ -40,7 +40,10 @@ public class Restaraunt {
             System.out.println("Оффициант" + Thread.currentThread().getName() + ": несет заказ посетителю");
             meatReady = true;
             orderCoocked = false;
+        } else {
+            System.out.println("fdsfsd");
         }
+
     }
 
     public synchronized void cooking() {
